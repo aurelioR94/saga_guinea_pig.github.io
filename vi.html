@@ -104,12 +104,31 @@
         <h1 class="font_title">Ginī Piggu VI Pītā no Akuma no Joi-san-1990</h1>
     </header>
 
-    <nav>
-        <a href="index.html">Inicio</a>
-        <a href="#">Categorías</a>
-        <a href="#">Películas|Series</a>
-        <a href="#">Contacto</a>
-    </nav>
+    <!-- Nav -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Menú OWO</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="https://aurelior94.github.io/online.github.io/">Inicio</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link disabled">Contactos</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+      </nav>
+<!-- Fin Nav-->
 
     <button class="toggle-button" onclick="toggleDarkMode()">Modo Nocturno</button>
 
